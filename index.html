@@ -3,10 +3,45 @@
 <head>
 	<title>DayTask</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<meta charset="utf-8">
 </head>
 <body>
-<p>danya</p>
+<!-- <div id="slide_lft">
+  Наведи здесь
+  <div id="slide_in">
+    Опасятина
+  </div> -->
 
-<p>Pots</p>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+	<input class="open" id="top-box" type="checkbox" hidden>
+	<label class="btn" for="top-box"></label>
+	<div class="top-panel">
+	   <div class="message">
+	       <div class="optionofsearch">
+
+					 Search Nearby: <input type="checkbox" id="myCheck" onclick="myFunction()">
+
+	 <p id="text" style="display:none">We will search near you</p>
+        <script>
+				function myFunction() {
+  // Get the checkbox
+  var checkBox = document.getElementById("myCheck");
+  // Get the output text
+  var text = document.getElementById("text");
+
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    text.style.display = "block";
+
+  } else {
+    text.style.display = "none";
+  }
+}
+        </script>
+				 </div>
+	   </div>
+	</div>
+
 </body>
 </html>
