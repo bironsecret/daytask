@@ -103,3 +103,9 @@ label.btn:after {
     content: '\f077';
     font: normal 18px/1 FontAwesome
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    margin-top: 1%;
+}
