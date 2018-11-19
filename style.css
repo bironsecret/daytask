@@ -109,3 +109,8 @@ img {
     margin-right: 10%;
     margin-top: 1%;
 }
+#username{
+	color:white;
+    position: fixed;
+	 right: 10%;
+}

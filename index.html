@@ -12,8 +12,10 @@
 	<div class="myprofile">
 
 	<img src = "personid.png" alt ="profile" style="height: 70px;">
+	<p id="username">Default username</p>
 	<script>
-document.write(Date());
+var element = document.getElementById("username");
+element.innerHTML = "this username must be got from mongodb";
 </script>
 	</div>
 	   <div class="message">
