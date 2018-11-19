@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 0;
+    padding: 1px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -113,4 +113,8 @@ img {
 	color:white;
     position: fixed;
 	 right: 10%;
+}
+body{
+  background: url(bckg.png);
+
 }
