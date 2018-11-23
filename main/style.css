@@ -1,50 +1,9 @@
-body{
-	margin: 0;
-	padding: 0;
-}
-
-
-
-#slide_lft{
-position: fixed;
-top: 100px;
-left: 300px;
--webkit-transition-duration: 0.3s;
--moz-transition-duration: 0.3s;
--o-transition-duration: 0.3s;
-transition-duration: 0.3s;
-background: #ffffff;
-color:#000000;
-padding:5px;
-}
-#slide_in {
-position: fixed;
-min-height:200px;
-top: -800px;
-right: 500px;
--webkit-transition-duration: 0.3s;
--moz-transition-duration: 0.3s;
--o-transition-duration: 0.3s;
-transition-duration: 0.3s;
-box-shadow:0 0 5px #777;
-background: #ffffff;
-color:#000000;
-width:250px;
-padding:10px;
-box-sizing:padding-box;
-}
-#slide_lft:hover #slide_in {
-right: 700px;
-top: 0px;
-}
-
 .top-panel {
     background: #39464e;
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 0;
-    margin: 0;
+    padding: 1px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -64,7 +23,6 @@ box-shadow:0 0 5px #777;
     position: relative;
     padding: 2em;
     margin: 0 auto;
-    margin-left: 11.5%;
     max-width: 980px
 }
 /* Заголовок 1 уровня */
@@ -144,4 +102,19 @@ label.btn:after {
 .open:checked ~ .top-panel > label.btn:after {
     content: '\f077';
     font: normal 18px/1 FontAwesome
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+#username{
+	color:white;
+    position: fixed;
+	 right: 10%;
+}
+body{
+  background: url(bckg.png);
+
 }
