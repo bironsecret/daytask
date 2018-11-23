@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>DayTask</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
 	<input class="open" id="top-box" type="checkbox" hidden>
 	<label class="btn" for="top-box"></label>
 	<div class="top-panel">
-	<div class="myprofile">
+		<div class="myprofile">
 
-	<img class = "IdImg"src = "personid.png" alt ="profile" style="height: 70px;">
-<script>
-    document.getElementsByClassName("idImg")[0].src = "hackanm.gif";
+			<img class="IdImg" src="personid.png" alt="profile" style="height: 70px;">
+			<script>
+				document.getElementsByClassName("idImg")[0].src = "hackanm.gif";
 </script>
-	<p id="username">Default username</p>
-	<script>
-var element = document.getElementById("username");
+			<p id="username">Default username</p>
+			<script>
+				var element = document.getElementById("username");
 element.innerHTML = "this username must be got from mongodb";
 </script>
-	</div>
-	   <div class="message">
-	       <div class="optionofsearch">
+		</div>
+		<div class="message">
+			<div class="optionofsearch">
 
-					 Search Nearby: <input type="checkbox" id="myCheck" onclick="myFunction()">
+				Search Nearby: <input type="checkbox" id="myCheck" onclick="myFunction()">
 
-	 <p id="text" style="display:none">We will search near you</p>
-        <script>
-				function myFunction() {
+				<p id="text" style="display:none">We will search near you</p>
+				<script>
+					function myFunction() {
 
-  var checkBox = document.getElementById("myCheck");
+						var checkBox = document.getElementById("myCheck");
 
-  var text = document.getElementById("text");
+						var text = document.getElementById("text");
 
-  if (checkBox.checked == true){
-    text.style.display = "block";
+						if (checkBox.checked == true) {
+							text.style.display = "block";
 
-  } else {
-    text.style.display = "none";
-  }
-}
-        </script>
-				 </div>
-	   </div>
+						} else {
+							text.style.display = "none";
+						}
+					}
+				</script>
+			</div>
+		</div>
 	</div>
 </body>
+
 </html>

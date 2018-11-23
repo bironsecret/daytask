@@ -1,5 +1,5 @@
 .top-panel {
-    background: #39464e;
+    background: #DD4C4C;
     position: fixed;
     top: 0;
     width: 100%;
@@ -11,11 +11,12 @@
     -moz-transform: translateY(-100%);
     transform: translateY(-100%);
     -webkit-transition-duration: 0.3s;
--moz-transition-duration: 0.3s;
--o-transition-duration: 0.3s;
-transition-duration: 0.3s;
-box-shadow:0 0 5px #777;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    box-shadow: 0 0 5px #777;
 }
+
 /* Блок сообщения */
 .message {
     color: #fff;
@@ -25,25 +26,29 @@ box-shadow:0 0 5px #777;
     margin: 0 auto;
     max-width: 980px
 }
+
 /* Заголовок 1 уровня */
 .message h1 {
     color: #fff
 }
+
 /* Заголовок 2 уровня */
 .message h2 {
     color: #888
 }
+
 .open {
-   position: absolute;
-   clip: rect(0 0 0 0);
-   opacity: 0;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    opacity: 0;
 }
+
 /* Переключатель панели */
 label.btn {
-  -webkit-transition-duration: 0.3s;
--moz-transition-duration: 0.3s;
--o-transition-duration: 0.3s;
-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
     display: block;
     position: absolute;
     right: 25px;
@@ -68,7 +73,7 @@ label.btn:hover {
     -webkit-transition: 0.35s;
     -moz-transition: 0.35s;
     transition: 0.35s;
-    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15)
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 /* Стрелка переключателя вниз */
@@ -77,7 +82,8 @@ label.btn:after {
     font: normal 18px/1 FontAwesome;
     text-decoration: inherit
 }
-.open:checked ~ .top-panel {
+
+.open:checked~.top-panel {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
@@ -87,34 +93,38 @@ label.btn:after {
     transition: 0.35s
 }
 
-.open:not(:checked) ~ .top-panel {
+.open:not(:checked)~.top-panel {
     -webkit-transition: 0.35s;
     -moz-transition: 0.35s;
     transition: 0.35s
 }
-/* Цвет переключателя при клике */
 
-.open:checked ~ .top-panel > label.btn {
+/* Цвет переключателя при клике */
+.open:checked~.top-panel>label.btn {
     background: #dd6149
 }
-/* Стрелка переключателя вверх*/
 
-.open:checked ~ .top-panel > label.btn:after {
+/* Стрелка переключателя вверх*/
+.open:checked~.top-panel>label.btn:after {
     content: '\f077';
     font: normal 18px/1 FontAwesome
 }
+
 img {
     display: block;
     margin-left: auto;
     margin-right: 10%;
     margin-top: 1%;
 }
-#username{
-	color:white;
-    position: fixed;
-	 right: 10%;
-}
-body{
-  background: url(bckg.png);
 
+#username {
+    color: white;
+    position: fixed;
+    right: 10%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: url(bckg.png);
 }
