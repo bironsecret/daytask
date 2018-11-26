@@ -1,8 +1,9 @@
 body{
 background-image: url(bckg.png)
 }
-#username{
-  
-  right:50%;
+#Registrationo{
+  position: static;
+    height: auto;
+      text-align: center;
 
 }
