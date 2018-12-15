@@ -1,52 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
-	<title>DayTask</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title></title>
 </head>
 
 <body>
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-	<input class="open" id="top-box" type="checkbox" hidden>
-	<label class="btn" for="top-box"></label>
-	<div class="top-panel">
-		<div class="myprofile">
 
-			<img class="IdImg" src="personid.png" alt="profile" style="height: 70px;">
-			<script>
-				document.getElementsByClassName("idImg")[0].src = "hackanm.gif";
-</script>
-			<p id="username">Default username</p>
-			<script>
-				var element = document.getElementById("username");
-element.innerHTML = "this username must be got from cookies or database";
-</script>
-		</div>
-		<div class="message">
-			<div class="optionofsearch">
+    <header>
+        <div>
+            <div id="button-header"></div>
+            <div class="Menu"><p id="removemewhendone"> разрабатываеться лучшими в этом деле....никем(почти)))</p></div>
+        </div>
+    </header>
 
-				Search Nearby: <input type="checkbox" id="myCheck" onclick="myFunction()">
 
-				<p id="text" style="display:none">We will search near you</p>
-				<script>
-					function myFunction() {
 
-						var checkBox = document.getElementById("myCheck");
 
-						var text = document.getElementById("text");
 
-						if (checkBox.checked == true) {
-							text.style.display = "block";
+    <footer>
+        <div class="footer-container">
+            <p>
+                <a class="Rights" href="https://ru.wikipedia.org/wiki/All_rights_reserved">All rights reserved</a>
+            </p>
+            <p>
+                <a class=" Aboutus" href="http://google.com">About us</a>
+            </p>
 
-						} else {
-							text.style.display = "none";
-						}
-					}
-				</script>
-			</div>
-		</div>
-	</div>
+            <div class="Logo-foot">
+                <div class="Logo-circle"></div>
+                <img src="" alt="">
+            </div>
+            <p><a class="Help" href="hhtp://youtube.com">Help</a></p>
+
+            <div class="icons">
+                <div class="container-icons">
+
+                    <a class="img a"><i class="fab fa-facebook-f"></i></a>
+                    <a class="img a"><i class="fab fa-twitter"></i></a>
+                    <a class="img a"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="img a"><i class="fab fa-youtube"></i></a>
+                    <a class="img a"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+
 </body>
 
 </html>
