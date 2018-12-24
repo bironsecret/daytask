@@ -1,5 +1,8 @@
 var $password = $("#password");
 var $confirmPassword = $("#confirm_password");
+var $name = $("#Name");
+var $surname = $("#Surname");
+var $age = $("#Age");
 $("form span").hide();
 
 function isPasswordValid() {
