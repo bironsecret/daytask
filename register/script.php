@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "username";
-$password = "password";
+$servername = "BIRONSECRET";
+$username = "root";
+$password = "Slava154820";
 $dbname = "userdata";
 
 // Create connection
