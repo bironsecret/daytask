@@ -1,7 +1,7 @@
 var $password = $("#password");
 var $confirmPassword = $("#confirm_password");
-var $name = $("#Name");
-var $surname = $("#Surname");
+var $Login = $("#Login");
+var $Email = $("#Email");
 var $age = $("#Age");
 $("form span").hide();
 
@@ -41,6 +41,8 @@ function confirmPasswordEvent() {
 
 function enableSubmitEvent() {
   $("#submit").prop("disabled", !canSubmit());
+  document.cookie = "password" + "=" + $password + ";" + "login" + "=" + $Login + ";" + "email" + "=" + $Email + ";"
+  window.open('file:script.php');
 }
 
 //When event happens on password input
