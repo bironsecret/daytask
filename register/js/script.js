@@ -51,7 +51,8 @@ $password.focus(passwordEvent).keyup(passwordEvent).keyup(confirmPasswordEvent).
 $confirmPassword.focus(confirmPasswordEvent).keyup(confirmPasswordEvent).keyup(enableSubmitEvent);
 
 enableSubmitEvent();
-Даня
+//
+<? php
 $servername = "sql211.epizy.com";
 $username = "epiz_23276517";
 $password = "1VPu77jR91kK";
@@ -76,3 +77,4 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 ?>
+//
