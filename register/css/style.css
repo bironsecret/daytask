@@ -191,7 +191,7 @@ footer a:hover {
     transition: all .1s ease-in-out;
     text-decoration: none;
 }
-
+/*
 .Logo-foot i {
     color: rgba(235, 229, 229, 1);
     font-size: 3vh;
@@ -201,5 +201,17 @@ footer a:hover {
 .Logo-foot i:hover {
     color: #3E9C6A;
     transform: rotate(40deg);
-    transition: all .1s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+*/
+#imag {
+    color: rgba(235, 229, 229, 1);
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+#imag:hover {
+    color: #3E9C6A;
+    transform: rotate(40deg);
+    transition: all .5s ease-in-out;
 }
